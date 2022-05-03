@@ -61,6 +61,19 @@ button {
   background-color: white;
   border: none;
   color: var(--Violet);
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.75);
+  transition: background-color 0.5s, color 0.2s;
+  -webkit-transition: background-color 0.5s, color 0.2s;
+  -moz-transition: background-color 0.5s, color 0.2s;
+  -ms-transition: background-color 0.5s, color 0.2s;
+  -o-transition: background-color 0.5s, color 0.2s;
+}
+button:hover {
+  background-color: var(--Soft-Magenta);
+  color: white;
+  cursor: pointer;
 }
 
 .icons {
@@ -79,6 +92,16 @@ i {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  transition: border 0.2s, color 0.5s;
+  -webkit-transition: border 0.2s, color 0.5s;
+  -moz-transition: border 0.2s, color 0.5s;
+  -ms-transition: border 0.2s, color 0.5s;
+  -o-transition: border 0.2s, color 0.5s;
+}
+i:hover {
+  color: var(--Soft-Magenta);
+  cursor: pointer;
+  border-color: var(--Soft-Magenta);
 }
 
 .icons div:nth-child(2) {
@@ -95,20 +118,19 @@ i {
   main {
     display: flex;
     text-align: left;
-    align-items: center;
+    /* align-items: center; */
     /* padding: 3.5rem 0; */
     justify-content: space-between;
   }
 
   .hero-content {
     width: 40%;
+    padding-top: 3rem;
   }
   h1 {
     font-size: 2.5rem;
   }
-  .hero-content p {
-    color: var(--Soft-Magenta);
-  }
+
   .hero-img {
     /* text-align: center; */
     margin-top: 2rem;
