@@ -15,4 +15,72 @@ body {
   padding: 0;
   font-family: var(--open-sans);
   font-weight: 400;
+  background-image: url("./images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-color: var(--Violet);
+  background-size: contain;
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+header,
+main,
+.icons {
+  width: 80%;
+  margin: 0 auto;
+}
+main {
+  text-align: center;
+  color: white;
+}
+img {
+  width: 100%;
+}
+.logo-img {
+  width: 150px;
+  height: auto;
+}
+.hero-img {
+  margin: 3rem 0;
+}
+h1 {
+  font-family: var(--poppins);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.btn {
+  margin-top: 2rem;
+}
+button {
+  width: 60%;
+  padding: 0.8rem 0;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  background-color: white;
+  border: none;
+  color: var(--Violet);
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+i {
+  padding: 11px;
+  color: white;
+  font-size: 10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.icons div:nth-child(2) {
+  margin: 0 0.5rem;
 }
